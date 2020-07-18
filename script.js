@@ -5,9 +5,9 @@ container.setAttribute('class', 'container');
 
 app.appendChild(container);
 
-var titles = ["Jump to 100","Encompass","Conway's Game of Life"];
-var images = ["images/walljump.png","images/encompass.png","images/gameoflife.png"];
-var links = ["https://jaehayi25.github.io/JumpTo100/","https://jaehayi25.github.io/Encompass/","https://jaehayi25.github.io/GameOfLife/"];
+var titles = ["Jump to 100","Encompass","Conway's Game of Life","Chatbot","Coming soon.","Coming soon."];
+var images = ["images/walljump.png","images/encompass.png","images/gameoflife.png","images/chatbot.png"];
+var links = ["https://jaehayi25.github.io/JumpTo100/","https://jaehayi25.github.io/Encompass/","https://jaehayi25.github.io/GameOfLife/","https://jaehayi.com/chatbot/"];
 
 for (var i = 0; i < titles.length; i++) {
     const cell = document.createElement('a');
